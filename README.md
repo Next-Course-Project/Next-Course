@@ -1,1 +1,1 @@
-# Next-Course
+Next Course is a Langflow-based assistant designed to help MS-HCI students seek out course information, recommendations, and reviews while planning their semester schedules. There is both a tool-based and RAG-based version.
