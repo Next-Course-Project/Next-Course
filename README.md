@@ -1,10 +1,10 @@
 # Next Course Registration Assistant
 Welcome! Next Course is a Langflow-based AI assistant designed to help MS-HCI students at Georgia Tech seek out course information, recommendations, and reviews while planning their semester schedules. There is a tool-based and RAG-based version, and a Slack App is used to communicate with students.
-The .zip file in this repository contains all the data files needed to run both versions, integrate the models with Slack, and utilize RAGAS for accuracy testing. For the complete setup and evaluation guide, please refer to 'Next Course Files and Components/Next CourseComplete Guide.docx' in the .zip file.
+The 'Next_Course_setup_and_sources.zip' file in this repository contains all the data files needed to run both versions, integrate the models with Slack, and utilize RAGAS for accuracy testing. For the complete setup and evaluation guide, please refer to 'Next Course Files and Components/Next CourseComplete Guide.docx' in the zip file.
 
 ## 1. Getting Started
 To begin, create a Langflow account and download the [Langflow app](https://www.langflow.org/).
-Next, download the .zip file Next_Course_setup_and_sources and unzip it.
+Next, download the zip file Next_Course_setup_and_sources and unzip it.
 
 ## 2. Uploading a Langflow model
 Open the Langflow app and sign in. In the Projects panel in the top left corner, there is an upload icon titled 'Upload a Flow'. Click it and select either the RAG JSON file (Github Files/Langflow Files/RAG Assistant/Next Course RAG Assistant.json)
