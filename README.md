@@ -16,7 +16,10 @@ or the tool-based JSON file (Github Files/Langflow Files/Tool-based Assistant/Ne
 **NOTE:** While the JSON files will set up the Langflow infrastructure for each model, you must create and enter your own API key for your selected agent. For the tool-based version, you must also provide the proper JSON path to the locally saved Catalogue, Course Review Excel Sheet, and MS-HCI Handbook files for each tool.
 
 ### Tool-Based setup
-Once the tool-based file has been uploaded to Langflow, open it to view the model flow. There are four tools connected to the Agent component, labeled "Catalogue Search", "Course Review Search", and "MS-HCI Handbook", and "Web Search". The first three require a data file path, which have to be updated with the path name of the locally saved JSON files in 'Github Files/Langflow Files/Tool-based Assistant'.
+Once the tool-based file has been uploaded to Langflow, open it to view the model flow and enter the appropriate JSON data file path in 'Github Files/Langflow Files/Tool-based Assistant' for each of the following tools: 
+1. Catalogue Search
+2. Course Review Search
+3. MS-HCI Handbook 'Github Files/Langflow Files/Tool-based Assistant'.
 
 Once the paths are updated, navigate to the Agent component and input the API key for the agent of your choice. Both versions currently use Anthropic Sonnet 4.5, but this can be easily changed in the Agent component.
 
